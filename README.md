@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Install
 
-Things you may want to cover:
+`git clone git@github.com:thibautgallice/gossip_activerecords.git`
 
-* Ruby version
+`cd gossip_activerecords`
 
-* System dependencies
+`bundle install`
 
-* Configuration
+`rails db:reset`
 
-* Database creation
+`rails db:migrate`
 
-* Database initialization
+`rails db:seed`
 
-* How to run the test suite
+`rails c`
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Run
 
-* ...
+`tp City.all`
+
+`tp User.all`
+
+`tp Gossip.all`
+
+`tp Tag.all`
+
+`tp TagGossip.all`
+
+`tp PrivateMessage.all`
